@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DomainModels\DomainModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Customers\Queries\" />
+    <Folder Include="Customers\Commands\" />
+    <Folder Include="Orders\Commands\" />
+    <Folder Include="Orders\Queries\" />
+    <Folder Include="Products\Commands\" />
+    <Folder Include="Products\Queries\" />
+  </ItemGroup>
+
+</Project>
